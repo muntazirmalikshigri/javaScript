@@ -43,3 +43,10 @@ console.log(user[0].name);
 console.log(Object.values(tinderUser))
 console.log(tinderUser.hasOwnProperty("id"));
 
+const course = {
+    name:"js in hindi",
+    price:"999",
+    Instructor:"Hitesh"
+};
+const {Instructor} = course;
+console.log(Instructor);
