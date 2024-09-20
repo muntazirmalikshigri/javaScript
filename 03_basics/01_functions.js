@@ -18,4 +18,24 @@ function loginUserMessage(username){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+function caculateCartPrice(val1,val2,...num){
+    return num;
+}
+console.log(caculateCartPrice(200,300,20,5000,400));
+
+const user = {
+    name:"sohail",
+    id:1122
+};
+function handleObject(anyObject){
+    console.log(`username is ${user.name} and his id is ${user.id}`)
+};
+handleObject(user);
+
+const arr=[3,44,66,7,77];
+function getArray(getArr){
+    return getArr[1];
+};
+console.log(getArray(arr));
