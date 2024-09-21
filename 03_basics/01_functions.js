@@ -39,3 +39,4 @@ function getArray(getArr){
     return getArr[1];
 };
 console.log(getArray(arr));
+
