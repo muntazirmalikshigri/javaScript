@@ -14,11 +14,11 @@
 // console.log("greater than 50")
 // }
 const score = 200;
-// if(score<100){
-//     let power = "fly"
-//     console.log(`power is: ${power}`);
-// }
-// console.log(`power is: ${power}`);
+if(score<100){
+    let power = "fly"
+    console.log(`power is: ${power}`);
+}
+console.log(`power is: ${power}`);
 
 const balance = 1000;
 if(balance>500) console.log("test");
