@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <h1 style="color: white;">Hello </h1>
+</body>
+<script>
+    let div=document.createElement('div');
+    // div.createTextNode("h1");
+    console.log(div);
+    div.className="malik";
+    div.id=Math.round(Math.random * 10 +1);
+    div.style.backgroundColor='green';
+    // div.innerText="java";
+    div.style.color="white";
+    let textNode=document.createTextNode("java");
+    div.appendChild(textNode);
+    document.body.appendChild(div);
+</script>
+</html>
