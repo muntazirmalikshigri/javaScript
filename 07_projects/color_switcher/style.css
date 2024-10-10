@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    
+}
+span{
+    width: 100px;
+    height: 100px;
+
+}
+.button{
+    padding: 12px;
+    margin: 12px;
+}
+body{
+    background-color: bisque;
+    align-items: center;
+}
+#blue{
+    background-color: blue;
+}
+#white{
+    background-color: white;
+}
+#grey{
+    background-color: gray;
+}
+#yellow{
+    background-color: yellow;
+}
