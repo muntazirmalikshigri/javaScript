@@ -91,3 +91,4 @@ const promiseOne = new Promise(function(resolve , reject){
         console.log(data)
     })
     .catch((error)=>console.log(error))
+    
